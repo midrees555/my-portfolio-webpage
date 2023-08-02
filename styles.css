@@ -1,0 +1,73 @@
+div{
+    color:rgb(225, 0, 255);
+}
+
+h1{
+    color: rgb(255, 0, 43);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2{
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+h2{
+    padding: 10px;
+    box-shadow: 7px 12px 30px rgb(87, 98, 240);
+    
+}
+
+p{
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.Profile-Picture{
+    text-align: center;
+
+}
+
+.Profile-Picture{
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+.MyNameStyle{
+    text-align: center;
+    text-shadow: #000000;
+
+    /* border: 2px solid rgb(206, 155, 135); */
+    padding: 10px;
+    box-shadow: 7px 12px 30px rgb(255, 51, 0);
+ }
+
+
+
+
+
+
+.My-Footer{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(87, 5, 25);
+    font-size: 11px;
+}
+
+.My-Footer{
+    font-family: "Segoe UI Variable Display", "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;;
+    /* border: 2px solid rgb(206, 155, 135); */
+    display: block;
+    margin:  0 auto;
+    padding: 10px;
+    box-shadow: 7px 30px 30px rgb(255, 72, 0);
+
+}
+
+
+
+
