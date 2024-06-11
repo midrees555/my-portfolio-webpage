@@ -14,21 +14,21 @@ html {
 }
 
 :root {
-    --primary-text-color: #b8bcf5;
-    --secondary-text-color: #492d99;
-    --full-light-color: #e8eaf5;
-    --primary-background-color: hsl(210, 59%, 11%);
-    --primary-button-border-color: #ffffff9f;
+    --primary-text-color: #FFD700; /* Yellow */
+    --secondary-text-color: #FFD700; /* Yellow */
+    --full-light-color: #FFD700; /* Yellow */
+    --primary-background-color: #000000; /* Black */
+    --primary-button-border-color: #FFD700; /* Yellow */
     
-    --hire-me-btn-primary-text-color: #fcfcfc;
-    --hire-me-btn-primary-background-color: #221449;
-    --hire-me-btn-secondary-text-color: #221449;
-    --hire-me-btn-secondary-background-color: #d6d0e4;
+    --hire-me-btn-primary-text-color: #000000; /* Black */
+    --hire-me-btn-primary-background-color: #FFD700; /* Yellow */
+    --hire-me-btn-secondary-text-color: #FFD700; /* Yellow */
+    --hire-me-btn-secondary-background-color: #000000; /* Black */
 
-    --footer-primary-background-color: #0e0c2c80;
-    --footer-primary-text-color: #b0abdf;
-    --footer-secondary-background-color: #b0abdf;
-    --footer-secondary-text-color: #0e0c2c80;
+    --footer-primary-background-color: #000000; /* Black */
+    --footer-primary-text-color: #FFD700; /* Yellow */
+    --footer-secondary-background-color: #FFD700; /* Yellow */
+    --footer-secondary-text-color: #000000; /* Black */
 }
 
 body {
@@ -62,8 +62,8 @@ header{
     height: 6rem;
     border-radius: 50%;
     overflow: hidden;
-    border: 3px dashed #ded9ec;
-    box-shadow: 0px 0px 20px 1px #b2b6f0;
+    border: 3px dashed #FFD700; /* Yellow */
+    box-shadow: 0px 0px 20px 1px #FFD700; /* Yellow */
 }
 
 .logo-picture img  {
@@ -89,7 +89,7 @@ header{
 }
 
 .nav-links ul li:hover {
-    color: #fff;
+    color: #FFD700; /* Yellow */
     transform: scale(1.01);
     border-bottom: 3px solid var(--primary-text-color);
 }
@@ -102,12 +102,10 @@ header{
 
 .nav-links ul li:last-child:hover {
     border-bottom: 3px solid var(--primary-background-color);
-    
 }
 
 .nav-links ul li > i:hover {
     color: var(--full-light-color);
-    
 }
 
 .hero-section {
@@ -116,7 +114,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-content: center;
-
 }
 
 .hero-section .hero-left {
@@ -126,7 +123,7 @@ header{
 .hero-section > .hero-left > h2 {
     font-size: 2.8rem;
     color: var(--secondary-text-color);
-    -webkit-text-stroke: 1px #738bd8;
+    -webkit-text-stroke: 1px #FFD700; /* Yellow */
 }
 .hero-section > .hero-left > h1 {
     font-size: 3.5rem;
@@ -147,8 +144,8 @@ header{
     width: 100%;
     height: 100%;
     border-radius: 50% 0 50% 0;
-    border: 1px solid #8fcef1;
-    box-shadow: 0 0 10px 5px #6088e0;
+    border: 1px solid #FFD700; /* Yellow */
+    box-shadow: 0 0 10px 5px #FFD700; /* Yellow */
 }
 
 button {
@@ -178,8 +175,7 @@ button:hover {
 
 #hire-me:hover {
     background-color: var(--hire-me-btn-secondary-background-color);
-    color: var(--hire-me-btn-secondary-text-color)
-
+    color: var(--hire-me-btn-secondary-text-color);
 }
 
 .hero-section ~ section {
@@ -192,9 +188,6 @@ section > h2 {
     padding-top: 30px;
 }
 
-
-
-
 footer {
     width: 100%;
     height: 25rem;
@@ -203,7 +196,6 @@ footer {
     display: flex;
     justify-content: space-evenly;
     padding-top: 2rem;
-    /* padding: 1rem 0.5rem; */
     flex-wrap: wrap;
 }
 
@@ -211,11 +203,5 @@ footer > div {
     margin: 5px;
     width: 300px;
     height: 95%;
-    background-color: rgb(47, 5, 71);
+    background-color: #FFD700; /* Yellow */
 }
-/* .social-media-profiles {
-}
-.random-projects {
-}
-.contact-form {
-} */
