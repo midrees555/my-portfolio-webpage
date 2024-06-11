@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primary-text-color: #b8bcf5;
+    --secondary-text-color: #492d99;
+    --full-light-color: #e8eaf5;
+    --primary-background-color: hsl(210, 59%, 11%);
+    --primary-button-border-color: #ffffff9f;
+    
+    --hire-me-btn-primary-text-color: #fcfcfc;
+    --hire-me-btn-primary-background-color: #221449;
+    --hire-me-btn-secondary-text-color: #221449;
+    --hire-me-btn-secondary-background-color: #d6d0e4;
+
+    --footer-primary-background-color: #0e0c2c80;
+    --footer-primary-text-color: #b0abdf;
+    --footer-secondary-background-color: #b0abdf;
+    --footer-secondary-text-color: #0e0c2c80;
+}
+
+body {
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 3rem;
+}
+
+.logo-picture {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px dashed #ded9ec;
+    box-shadow: 0px 0px 20px 1px #b2b6f0;
+}
+
+.logo-picture img  {
+    width: 10rem;
+    transform: translate(-35px, -50px);
+}
+
+.nav-links ul {
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-links ul li {
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 25px;
+    border-bottom: 3px solid var(--primary-background-color);
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
+}
+.nav-links ul li:last-child {
+    margin-right: 20px;
+}
+
+.nav-links ul li:hover {
+    color: #fff;
+    transform: scale(1.01);
+    border-bottom: 3px solid var(--primary-text-color);
+}
+
+.nav-links ul li > i {
+    color: var(--primary-text-color);
+    font-size: 1rem;
+    transition: all ease-in-out 0.2s;
+}
+
+.nav-links ul li:last-child:hover {
+    border-bottom: 3px solid var(--primary-background-color);
+    
+}
+
+.nav-links ul li > i:hover {
+    color: var(--full-light-color);
+    
+}
+
+.hero-section {
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
+.hero-section .hero-left {
+    width: 60%;
+    padding: 4rem 0 0 3rem;
+}
+.hero-section > .hero-left > h2 {
+    font-size: 2.8rem;
+    color: var(--secondary-text-color);
+    -webkit-text-stroke: 1px #738bd8;
+}
+.hero-section > .hero-left > h1 {
+    font-size: 3.5rem;
+}
+
+.hero-section > .hero-left > p {
+    width: 80%;
+    line-height: 1.4rem;
+}
+
+.hero-section > .hero-right {
+    width: 40%;
+    height: 100%;
+    margin-right: 2rem;
+}
+
+.hero-section > .hero-right > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50% 0 50% 0;
+    border: 1px solid #8fcef1;
+    box-shadow: 0 0 10px 5px #6088e0;
+}
+
+button {
+    width: 9rem;
+    height: 2.7rem;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+    margin: 3rem 1rem 0 0;
+    border: 1px solid var(--primary-button-border-color);
+    border-radius: 3px;
+
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+
+button:hover {
+    background-color: var(--primary-text-color);
+    color: var(--primary-background-color);
+}
+
+#hire-me {
+    background-color: var(--hire-me-btn-primary-background-color);
+    color: var(--hire-me-btn-primary-text-color);
+}
+
+#hire-me:hover {
+    background-color: var(--hire-me-btn-secondary-background-color);
+    color: var(--hire-me-btn-secondary-text-color)
+
+}
+
+.hero-section ~ section {
+    margin: 3rem;    
+}
+
+section > h2 {
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 30px;
+}
+
+
+
+
+footer {
+    width: 100%;
+    height: 25rem;
+    background-color: var(--footer-primary-background-color);
+
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+    /* padding: 1rem 0.5rem; */
+    flex-wrap: wrap;
+}
+
+footer > div {
+    margin: 5px;
+    width: 300px;
+    height: 95%;
+    background-color: rgb(47, 5, 71);
+}
+/* .social-media-profiles {
+}
+.random-projects {
+}
+.contact-form {
+} */
